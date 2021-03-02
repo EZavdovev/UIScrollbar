@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TeletapeSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: -5608819318807225731, guid: 3384982e0c1ea724291c36341b7ff644, type: 3}
+    - {fileID: 21300000, guid: 0f2c5a921fda5fd4cb1b5c8a23df7bcf, type: 3}
+    - {fileID: 2800000, guid: 21d5adbf3acbd9644a5271d25f85c827, type: 3}
+    - {fileID: -3019424127853119141, guid: 992b9cdc15cbaf047a0f55e1c527229e, type: 3}
+    - {fileID: 21300000, guid: ea0eecfcebb618d4fad216277b97d57e, type: 3}
+    - {fileID: 102900000, guid: b8115d1210606b447aee16d7062c250f, type: 3}
+    - {fileID: 102900000, guid: 6dcd2f3372bc55141a699c1b431a4563, type: 3}
+    - {fileID: 102900000, guid: d65848a93f492a34896f0f0d7741da57, type: 3}
+    - {fileID: 102900000, guid: 4f2750baca878bc42be750ea0b0ba849, type: 3}
+    totalSpriteSurfaceArea: 360619
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -9121159578904531712, guid: d54d45f051cc7d3439ccdcb35699a7e3, type: 3}
+  - {fileID: -9121159578904531712, guid: d407afb16b2b8db4bae9fe0d87b08e39, type: 3}
+  - {fileID: 21300000, guid: 0f2c5a921fda5fd4cb1b5c8a23df7bcf, type: 3}
+  - {fileID: -9121159578904531712, guid: 0a5878c2e0c75274eb69a42fdf7df302, type: 3}
+  - {fileID: -2834170034393535239, guid: 741850e2ac86ebe48bcbae2ee0011210, type: 3}
+  - {fileID: -9121159578904531712, guid: b02b6506f68f30a48ac46ad5b5a646a4, type: 3}
+  - {fileID: 8355475422739291544, guid: 70def756ff446d84689a136b8edf2176, type: 3}
+  - {fileID: 211771979458753511, guid: 9b051af6f41eb3e4795120ff49dea767, type: 3}
+  - {fileID: 7603782322723492613, guid: d3acb5577bc9c3e42aac36111d14d082, type: 3}
+  - {fileID: 8355475422739291544, guid: 52981269267ac504fb4cafcecf016bfb, type: 3}
+  - {fileID: 21300000, guid: 75d20d1afcfe7604a9a0b94be60a98a1, type: 3}
+  - {fileID: 9192171056332275476, guid: 36c2f4bae5a8c5b4ea80245cf99da06a, type: 3}
+  - {fileID: -9121159578904531712, guid: 174cd34bb54254b40bfc741985f156c1, type: 3}
+  - {fileID: 8355475422739291544, guid: 2a21d8ebcedaf31408c1e7ee4a7789f6, type: 3}
+  - {fileID: -9121159578904531712, guid: 411c9abcc281193458479b95e1c99567, type: 3}
+  - {fileID: -3019424127853119141, guid: 992b9cdc15cbaf047a0f55e1c527229e, type: 3}
+  - {fileID: 21300000, guid: ea0eecfcebb618d4fad216277b97d57e, type: 3}
+  - {fileID: -5608819318807225731, guid: 3384982e0c1ea724291c36341b7ff644, type: 3}
+  - {fileID: 9192171056332275476, guid: 6735c52f95a1e2b458e299fc571c7393, type: 3}
+  - {fileID: 9192171056332275476, guid: 14391e8fa9842494d9c301e616a37ab1, type: 3}
+  - {fileID: 9192171056332275476, guid: c46938bf235bc2a498528e3d8a4fc119, type: 3}
+  - {fileID: 21300000, guid: 21d5adbf3acbd9644a5271d25f85c827, type: 3}
+  - {fileID: 9192171056332275476, guid: c2d106ffbc13ca24ab90dea1956a5af9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - teletape_back4_2_0
+  - teletape_back4_2_0
+  - caret
+  - teletape_back4_2_0
+  - teletape_back8_2 1_0
+  - teletape_back4_2_0
+  - teletape_back4_2 1_0
+  - teletape_back8_2_0
+  - teletape_back2_2_0
+  - teletape_back4_2 1_0
+  - teletape_back2_2 1
+  - teletape_back_2_0
+  - teletape_back4_2_0
+  - teletape_back4_2 1_0
+  - teletape_back4_2_0
+  - line_0
+  - lines
+  - background 1_0
+  - teletape_back_2_0
+  - teletape_back_2_0
+  - teletape_back_2_0
+  - circle
+  - teletape_back_2_0
+  m_RenderDataMap: {}
+  m_Tag: TeletapeSpriteAtlas
+  m_IsVariant: 0
