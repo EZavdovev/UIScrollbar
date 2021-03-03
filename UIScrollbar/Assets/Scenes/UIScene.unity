@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326024900
 GameObject:
@@ -512,7 +512,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &646497998
 GameObject:
@@ -1475,6 +1475,8 @@ GameObject:
   - component: {fileID: 1572191082}
   - component: {fileID: 1572191084}
   - component: {fileID: 1572191083}
+  - component: {fileID: 1572191086}
+  - component: {fileID: 1572191085}
   m_Layer: 5
   m_Name: Products
   m_TagString: Untagged
@@ -1516,6 +1518,53 @@ MonoBehaviour:
   _productsPos: {fileID: 1572191082}
   _product: {fileID: 9060839866486912710, guid: 39f4388e692d45f408c2def4446fe7b8, type: 3}
   _countProductsSpawn: 100
+  _foodAssets:
+  - m_AssetGUID: 1105ede68cdc94b469321dabc4ad84c5
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: ddd2aa408e87fe54890d674bfbc45dcd
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: c78e5a7a2a3038f44a13a0bae8c7600c
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: 2a5b4b2a022e03443ad4d2e60ea462e3
+    m_SubObjectName: 
+    m_SubObjectType: 
+  _avatarAssets:
+  - m_AssetGUID: fabc9571304af034ca054a830b4bd487
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: 3a185a31d85d7ce458f95f067644f960
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: 6e5a6dd400eba8148aac70afdf4540c4
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: ef18db1c9ef0b1c45a1d98c4c7a9ea1a
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: 89a7de22ba85457489a0bdf645d89c04
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: f84930676e730724aa21ed93ab74d426
+    m_SubObjectName: 
+    m_SubObjectType: 
+  _allDownloadListener: {fileID: 1572191086}
+  _downloadDispatcher: {fileID: 1572191085}
+  _nameAv:
+  - "\u0413\u0435\u043D\u044B\u0447332"
+  - Ultr@mar
+  - Jacks0n
+  - "\u0447\u0438\u0432\u0430\u043F\u0447\u0438\u0447"
+  - qwerty
+  - "\u0412\u043E\u043B\u044C\u0432\u0430"
+  _nameFood:
+  - "\u041C\u0430\u0441\u043B\u043E"
+  - "\u041A\u0443\u043A\u0443\u0440\u0443\u0437\u0430"
+  - "\u0413\u0440\u0438\u0431\u044B"
+  - "\u041F\u0448\u0435\u043D\u0438\u0446\u0430"
+  _lvlAv: 0500000017000000120000000d0000000200000041000000
 --- !u!114 &1572191084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,6 +1589,32 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &1572191085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572191081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69238303225958d41b1a8143fba02418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _someEvent: {fileID: 11400000, guid: 000a66c219820c04fa80e2b4a0b5e6f2, type: 2}
+--- !u!114 &1572191086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572191081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54664f7081d4f4a44a73f5689afe89e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _someEvent: {fileID: 11400000, guid: b799ffca85fd656458981b6089561be2, type: 2}
 --- !u!1 &1605808829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,6 +1713,8 @@ MonoBehaviour:
   _rightButton: {fileID: 1659379441}
   _leftButton: {fileID: 423969923}
   _productScroll: {fileID: 1605808832}
+  _oneSnapsize: 0.0625
+  _snapTime: 0.3
 --- !u!1 &1613128966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,6 +2288,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904850654}
   m_CullTransparentMesh: 1
+--- !u!1 &1932753365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1932753366}
+  - component: {fileID: 1932753369}
+  - component: {fileID: 1932753368}
+  - component: {fileID: 1932753367}
+  m_Layer: 0
+  m_Name: DownloadController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1932753366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932753365}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1932753367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932753365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69238303225958d41b1a8143fba02418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _someEvent: {fileID: 11400000, guid: b799ffca85fd656458981b6089561be2, type: 2}
+--- !u!114 &1932753368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932753365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54664f7081d4f4a44a73f5689afe89e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _someEvent: {fileID: 11400000, guid: 000a66c219820c04fa80e2b4a0b5e6f2, type: 2}
+--- !u!114 &1932753369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932753365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686b145e20727e44691e9f716728723e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _downloadListener: {fileID: 1932753368}
+  _allDownloadDispatcher: {fileID: 1932753367}
+  countDownload: 2
 --- !u!1 &1953882885
 GameObject:
   m_ObjectHideFlags: 0
@@ -2304,7 +2455,7 @@ RectTransform:
   m_Children:
   - {fileID: 1613128967}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
